@@ -1,0 +1,27 @@
+<resources>
+  <string name="app_name">الأسهم هوك</string>
+
+  <string name="action_example">العمل سبيل المثال</string>
+
+  <string name="action_settings">إعدادات</string>
+  <string name="action_change_units">وحدات التغيير</string>
+  <string name="symbol_search">رمز البحث</string>
+  <string name="content_test">بحث عن الأوراق المالية رمز</string>
+  <string name="input_hint">FB</string>
+  <string name="input_prefill"></string>
+  <string name="network_toast">اه اوه! هذا التطبيق يتطلب اتصال بالإنترنت</string>
+
+  <string name="symbol">رمز</string>
+  <string name="empty_stocks_list">لا تتوافر بيانات</string>
+  <string name="eps_estimate_current_year">EPS تقديرات السنة الحالية</string>
+  <string name="eps_estimate_next_year">EPS تقديرات العام القادم</string>
+  <string name="eps_estimate_next_quarter">EPS تقديرات الربع القادم</string>
+  <string name="day_high">يوم عظيم</string>
+  <string name="day_low">انخفاض اليوم</string>
+  <string name="year_low">انخفاض العام</string>
+  <string name="year_high">سنة ارتفاع</string>
+  <string name="appwidget_text">مثال</string>
+  <string name="add_widget">إضافة القطعة</string>
+  <string name="nodata">لا تتوافر بيانات. تحقق من اتصال الإنترنالخاص بكت</string>
+
+</resources>
