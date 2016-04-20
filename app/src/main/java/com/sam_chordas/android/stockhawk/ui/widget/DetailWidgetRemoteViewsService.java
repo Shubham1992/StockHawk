@@ -105,6 +105,13 @@ public class DetailWidgetRemoteViewsService extends RemoteViewsService {
                 }
 
                 views.setTextViewText(R.id.change,data.getString(data.getColumnIndex("percent_change")));
+
+                Intent fillInIntent = new Intent();
+                fillInIntent.putExtra("pos", position);
+                // Make it possible to distinguish the individual on-click
+                // action of a given item
+                views.setOnClickFillInIntent(R.id.main_layout, fillInIntent);
+
                 return views;
             }
 

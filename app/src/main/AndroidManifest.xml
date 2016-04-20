@@ -48,7 +48,8 @@
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <receiver android:name=".ui.widget.AppWidget"
+        <receiver
+            android:name=".ui.widget.AppWidget"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -59,6 +60,14 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/app_widget_info" />
         </receiver>
+
+        <activity android:name=".ui.DetailActivity"
+            android:parentActivityName=".ui.MyStocksActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MyStocksActivity" />
+        </activity>
     </application>
 
 </manifest>

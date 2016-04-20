@@ -90,7 +90,11 @@ public class MyStocksActivity extends AppCompatActivity implements LoaderManager
               @Override public void onItemClick(View v, int position) {
                 //TODO:
                 // do something on item click
-                getSupportFragmentManager().beginTransaction().add(R.id.container, StockOverTimeFragment.newInstance(mCursor, position)).addToBackStack(null).commit();
+                //getSupportFragmentManager().beginTransaction().add(R.id.container, StockOverTimeFragment.newInstance(mCursor, position)).addToBackStack(null).commit();
+
+                Intent intent = new Intent(MyStocksActivity.this, DetailActivity.class);
+                intent.putExtra("pos", position);
+                startActivity(intent);
 
               }
             }));
