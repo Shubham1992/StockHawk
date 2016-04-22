@@ -23,5 +23,5 @@
   <string name="appwidget_text">مثال</string>
   <string name="add_widget">إضافة القطعة</string>
   <string name="nodata">لا تتوافر بيانات. تحقق من اتصال الإنترنالخاص بكت</string>
-
+  <string name="already_available">يتم حفظ هذه الأسهم بالفعل!</string>
 </resources>
